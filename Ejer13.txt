@@ -1,0 +1,8 @@
+xs = [1..10]
+
+-Con el primer filter escogemos todos los elementos
+pares de la lista xs.
+-Con la segunda funcion map, ejecutamos la funcion "Cuadrado"
+a todos los elementos recogidos por el filter [2,4,6,8,10].
+-Con el último sum sumamos todos los elementos de la lista
+resultante del map previo. [4,16,36,64,100] = 220

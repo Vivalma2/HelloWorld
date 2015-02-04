@@ -1,0 +1,5 @@
+data TreeInt = Leaf Int | Branch TreeInt TreeInt
+
+symmetric :: Tree a -> Tree a
+symmetric (Leaf x) = Leaf x
+symmetric (Branch izq der) = Branch (symmetric der) (symmetric izq)
